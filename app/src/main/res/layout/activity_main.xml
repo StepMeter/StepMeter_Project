@@ -52,7 +52,7 @@
             android:fontFamily="@font/ebtekar"
             android:textColor="#F8FFF8"
             android:textSize="39sp"
-            android:text="گامان" />
+            android:text="گام" />
 
     </LinearLayout>
 

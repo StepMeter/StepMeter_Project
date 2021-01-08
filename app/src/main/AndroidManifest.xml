@@ -3,8 +3,7 @@
     package="com.raamaangroup.stepMeter"
     android:installLocation="auto">
 
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
@@ -14,9 +13,9 @@
         android:roundIcon="@drawable/icon_circular"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
         <activity android:name=".Main" />
-        <activity android:name=".SignUpActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,7 +23,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
     </application>
 
 </manifest>
