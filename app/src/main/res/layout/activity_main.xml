@@ -51,8 +51,8 @@
             android:layout_marginBottom="40dp"
             android:fontFamily="@font/ebtekar"
             android:textColor="#F8FFF8"
-            android:textSize="39sp"
-            android:text="گام" />
+            android:textSize="35sp"
+            android:text="گام متر" />
 
     </LinearLayout>
 
